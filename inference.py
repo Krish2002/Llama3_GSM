@@ -24,7 +24,7 @@ test_dataset = Dataset.from_pandas(df[1000:])
 
 # Inferece
 
-access_token = "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"
+access_token = ""
 model_name = "Llama-3-8B-IRIT-GSM"
 
 tokenizer = AutoTokenizer.from_pretrained(model_name, use_fast=True)

@@ -182,7 +182,7 @@ tokenizer.padding_side = "right"
 
 
 # Push model to Hugging Face Hub
-os.system('huggingface-cli login --token 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')
+os.system('huggingface-cli login --token access_token')
 
 tokenizer.push_to_hub("Krish2002/Llama-7B-IRIT-GSM", check_pr=True)
 model.push_to_hub("Krish2002/Llama-7B-IRIT-GSM", check_pr=True)
